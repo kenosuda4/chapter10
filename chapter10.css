@@ -53,24 +53,31 @@ main{
     margin: 15px 0 5px;
 }
 @media screen and (max-width: 768px) {
-    main {
-        max-width: 768px;
-        padding: 50px;
-        margin: 0 auto;
+    body {
+        width: 90%;
     }
+
+    main {
+        width: 768px;
+        margin: 50px auto;
+    }
+
     .box {
         float: none;
         width: 90%;
-        margin: 20px;
-        
+        margin: 20px auto;     
+    }
+    .box:last-child{
+        margin :20px auto;
+        margin-bottom: 0px;
     }
     .img1 {
-        height:230px;
+        height:270PX;
     }
     .img2 {
-        height:230px;
+        height:270px;
     }
     .img3 {
-        height:230px;
+        height:270px;
     }
 }
