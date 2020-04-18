@@ -69,7 +69,6 @@ main{
     }
     .box:last-child{
         margin :20px auto;
-        margin-bottom: 0px;
     }
     .img1 {
         height:270PX;
