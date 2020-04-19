@@ -53,19 +53,16 @@ main{
     margin: 15px 0 5px;
 }
 @media screen and (max-width: 768px) {
-    body {
-        width: 90%;
-    }
-
-    main {
-        width: 768px;
+   
+main {
+        width: 100%;
         margin: 50px auto;
     }
 
     .box {
         float: none;
         width: 90%;
-        margin: 20px auto;     
+        margin: 20px auto;    
     }
     .box:last-child{
         margin :20px auto;
